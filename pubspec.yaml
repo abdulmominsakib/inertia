@@ -1,6 +1,6 @@
 name: scrollable_inertia
 description: Customizable scrollable's animations to make your app stand out from the crowd.
-version: 0.0.1+1
+version: 0.0.2+2
 homepage: https://wrbl.xyz
 repository: https://github.com/wrbl606/inertia
 topics:
@@ -9,13 +9,13 @@ topics:
   - widgets
   - scrollable
 screenshots:
-  - description: 'Motion blur demo'
+  - description: "Motion blur demo"
     path: asset/blur.webp
-  - description: 'Interia-based spacing demo'
+  - description: "Interia-based spacing demo"
     path: asset/spacing.webp
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -27,4 +27,4 @@ dev_dependencies:
     sdk: flutter
   build_runner:
   mockito: ^5.3.2
-  lints: ^2.1.1
+  lints: ^6.1.0

@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:faker/faker.dart';
+import 'package:faker/faker.dart' hide Image;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:scrollable_inertia/scrollable_inertia.dart';
